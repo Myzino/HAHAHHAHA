@@ -1,0 +1,38 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.table-resize{
+    padding-left: 100px;
+}
+
+.titlepage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+
+}
+
+.button{
+    text-align: right;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+.description-column {
+  max-width: 200px; /* Adjust the desired width as needed */
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
